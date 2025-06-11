@@ -1,7 +1,7 @@
 **TIME AND ATTENDANCE TRAINING**
 At the start of the meeting **share the link to the server** with the trainees. The link should have ip address and not local host if the server and client are on the same network.
 
-# Dashboard
+# DASHBOARD
 
 overview of what you are going to expect in the system
 
@@ -93,10 +93,29 @@ When you search the card in the card list the card status shows available
 On the card replacement reason there should be a reason defined e.g Resigned, Terminated
 On the **general setup- configurations- employee setting- separation setting** on the separation setting check the auto surrender icard on Employee Separation option
 To separate an employee go to **employee-separation-request type** select request type being the reason for the separation.
-**employee-separation-separation-request** select employee payroll number, request type enter date, and all the asterics to be field.
+**employee-separation-request** select employee payroll number, request type, enter date, and all the red asterics to be field.
 
 The difference between the new and old system is that when employee is separated their details is greyed when you search the employee but in the new system, the employee wont be visible unless you check the separated(red icon) on the employee details
 on the old system there was no separate list for the separated employees
 
 The system has the option to rejoin the employee in future after termination.
-**employee-rejoining employment** enter name and the new rejoining dateand remarks
+**employee-rejoining employment** enter name and the new rejoining date and remarks(reason for joining)
+NB: You cannot delete an employee in the system. The employee history is important if they are to be rejoined
+
+### LEAVE
+
+## Setup
+
+# Leave Master
+
+This is where the leaves are defined
+click on the add button and enter the leave information as defined in the old system
+
+**how to apply leave**
+
+**how to do leave assignment**
+Is the process of making an employee eligible for a leave
+select payroll number, select leave name, click the checkbox at the checkbox on top of the entry creted t the bottom to select all then save at the bottom.
+**opening balances** where applicable
+The essence of giving leave opening balances to an employee lies in ensuring accurate and fair tracking of their entitled time off from the very beginning of their employment or a new leave cycle.
+If an employee is entitled to 24 days of annual leave per year, their opening balance at the start of the year would be 24 days. If they are hired mid-year, the opening balance might be prorated, e.g., 12 days for 6 months.
