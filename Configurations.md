@@ -56,5 +56,3 @@ Pull shortcut from the server by going to the bitplus folder win + R //ip or pc 
 Rename the current paymaster in the bitplus folder
 Look for the PayMaster12 Version 12.0.736_1 (36.1) or later
 Unzip and copy the paymaster.exe file to the server bitplus folder
-
-
