@@ -130,21 +130,31 @@ When you search the card in the card list the card status shows available
 ### Employee Separation
 
 #### In the old system
+
 you had to return card and then separate the employee.
+
 #### In the new system
+
 there is a setting to automatically return card upon separation.
 On the card replacement reason there should be a reason defined e.g Resigned, Terminated
+
 #### general setup- configurations- employee setting- separation setting
+
 on the separation setting check the auto surrender icard on Employee Separation option
 
 #### employee-separation-request type
+
 To separate an employee select request type being the reason for the separation.
+
 #### employee-separation-request
+
 select employee payroll number, request type, enter date, and all the red asterics to be field.
 
 The difference between the new and old system is that when employee is separated their details is greyed when you search the employee but in the new system, the employee wont be visible unless you check the separated(red icon) on the employee details
 on the old system there was no separate list for the separated employees
+
 #### employee-rejoining employment
+
 The system has the option to rejoin the employee in future after termination. enter name and the new rejoining date and remarks(reason for joining)
 NB: You cannot delete an employee in the system. The employee history is important if they are to be rejoined
 
@@ -166,14 +176,17 @@ select payroll number, select leave name, click the checkbox at the top of the e
 
 #### Opening
 
-**opening balance**
+##### opening balance
+
 The essence of giving leave opening balances to an employee lies in ensuring accurate and fair tracking of their entitled time off from the very beginning of their employment or a new leave cycle.
 If an employee is entitled to 24 days of annual leave per year, their opening balance at the start of the year would be 24 days. If they are hired mid-year, the opening balance might be prorated, e.g., 12 days for 6 months.
 
-#### Leave Transaction
+### Leave Transaction
 
 This is where you do the leave application. In the sytem you cannot be able to apply a leave for an employee if they are not leave appplicable under leave assignment and have opening balances in Masters
-**leave application**
+
+#### leave application
+
 select employee payroll number, request date(date that you are applying the leave), leave name, from date,and to date
 leave days will auto generate
 you can adjust if it it a half day leave and which half it will take effect.
@@ -181,7 +194,10 @@ In this system there is the option to attach a document
 
 when you save and come back to the leave appplication module, you'll see the leave tht has been applied.
 
-**leave adjustment**
+#### leave adjustment
+
 Applicable in the case whereby an employees leave has been approved but you need the employee back to work. if you had applied leave for an employee for 25 days and you need to adjust the leave by 10 days so that they can report back to work for the 5 days, enter the payroll number, leave type, leave adjustment date() and click the drop down button to reveal deduct and enter 5 on the input field.
-**leave Encashment**
+
+#### leave Encashment
+
 Applicable for instance if an employees has a leave balance of 15 days and there is an agreement that they go for 5 days and are paid for the remeinder of the days instead.
