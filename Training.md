@@ -4,18 +4,47 @@ At the start of the meeting **share the link to the server** with the trainees. 
 
 ## DASHBOARD
 
-overview of what you are going to expect in the system
+Overview of what you are going to expect in the system
 
-**Total Head Count** -active number of employees in the organization
-**Present** total number of employees present as of today
-**Absent** total number of employees absent as of today, reason may be failure to clock in, or those on leave and information has not been updated in the system, those who are on their weekly off but their info is not updated in the system
-**Late in** indidcates the number of employees who have clocked in late as of the start time of their shift.
-**Early Out** employees have clocked out earlier than the end of the shift as of today
-**On Leave** Indicates the number of employees on leave as of today. if the leave is captured corerectly it will show on leave card. if not it will appear on the absent card.
-**Weely Off** is when employees are on their resting day. indicates the number the number of employees whose weekly off is the present day. if the weekly off is captured corerectly it will show on weekly off card. if not it will appear on the absent card.
-**Holiday** the system allows the user to add and customize holidays. the holiday in the dashboard therefore indicates the number of employees who have clocked in during the holiday. The system will indicate the hours that the employees are entitled to be paid for working during holidays. if there are employees whose shift is schedule to include the holidays will be marked as present if the clock in and absent is if they fail to clock in.
-**Compensatory Off/ C-Off** This captures the information for employees who have been assigned compensatory off. that is, if they have worked on their weekly off or during the holidays if asked by management.
-**Contract expired** if employees are under contract. those whose contract has expired as of the present day are displayed on the dashboard.
+### Total Head Count
+
+active number of employees in the organization
+
+### Present
+
+total number of employees present as of today
+
+### Absent
+
+total number of employees absent as of today, reason may be failure to clock in, or those on leave and information has not been updated in the system, those who are on their weekly off but their info is not updated in the system
+
+### Late in
+
+indidcates the number of employees who have clocked in late as of the start time of their shift.
+
+### Early Out
+
+employees have clocked out earlier than the end of the shift as of today
+
+### On Leave
+
+Indicates the number of employees on leave as of today. if the leave is captured corerectly it will show on leave card. if not it will appear on the absent card.
+
+### Weely Off
+
+is when employees are on their resting day. indicates the number the number of employees whose weekly off is the present day. if the weekly off is captured corerectly it will show on weekly off card. if not it will appear on the absent card.
+
+### Holiday
+
+the system allows the user to add and customize holidays. the holiday in the dashboard therefore indicates the number of employees who have clocked in during the holiday. The system will indicate the hours that the employees are entitled to be paid for working during holidays. if there are employees whose shift is schedule to include the holidays will be marked as present if the clock in and absent is if they fail to clock in.
+
+### Compensatory Off/ C-Off
+
+This captures the information for employees who have been assigned compensatory off. that is, if they have worked on their weekly off or during the holidays if asked by management.
+
+### Contract expired
+
+if employees are under contract. those whose contract has expired as of the present day are displayed on the dashboard.
 
 ## MASTERS
 
@@ -23,25 +52,40 @@ similar to the old TA, Used to adding new or edit existing entries.
 
 ### Placement Masters-
 
-**To add a department**- when you click on department it shows the existing departments. The systems has an ADD BUTTON that is BLUE in color.
+#### To add a department
+
+when you click on department it shows the existing departments. The systems has an ADD BUTTON that is BLUE in color.
 The fields with a red asteric are mandatory fields.
-**To edit the department** that has been created you click on the department edit to your liking and select the UPDATE BUTTON that is GREEN in color.
-**To delete a department**- click on the department and select the DELETE BUTTON that is RED in color.
+
+#### To edit the department
+
+that has been created you click on the department edit to your liking and select the UPDATE BUTTON that is GREEN in color.
+
+#### To delete a department
+
+click on the department and select the DELETE BUTTON that is RED in color.
 
 **same logic goes to the other fileds(Sub department, designation, category, class, position, master one, master two, location)**
 
 ### Shift
 
 Used to define the shifts that the employess are assigned.
-**To define a shift** in the new system, you need to select shift type- normal
+
+#### To define a shift
+
+in the new system, you need to select shift type- normal
 shift code can be same as shift name so that once the shift has been allocated to an employee you can be able to understand the shift better and different the different shift allocated to that particular employee.
 The best practice is to use the shift name and in brackets the start and end time of the shift. e.g NORMAL SHIFT(07:30 to 16:45)
 
-**To define the break**
+#### To define the break
+
 click on Add a new record
 e.g Lunch break Start time 13:00 End Time 14:00
 Applicable on - set the days which the shift will be applicable
-**Time Range**- depending on how the employees clock, any employees who clock between the time set is allocated the shift.
+
+#### Time Range
+
+depending on how the employees clock, any employees who clock between the time set is allocated the shift.
 
 ### Time Off Reason
 
@@ -49,7 +93,9 @@ When you want to give an employee a time off you can define the reason for the t
 
 ### Company Structure
 
-**Holiday**- This is where you define the holidays that the company recognizes. If holidays arenot defined in the system and employees don't clock the system picks absent.
+#### Holiday
+
+This is where you define the holidays that the company recognizes. If holidays arenot defined in the system and employees don't clock the system picks absent.
 in this new system if you check the repeat holiday checkbox and assign a date for the holiday, you'll not have to redefine the holiday the succeeding years.
 If the holiday falls on a weekend and is pushed to a Monday, you'll have to recreate it manually and slect the monday date but do not select the repeat option.
 
