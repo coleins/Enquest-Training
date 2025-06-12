@@ -1,7 +1,7 @@
-#### TIME AND ATTENDANCE TRAINING
+# TIME AND ATTENDANCE TRAINING
 At the start of the meeting **share the link to the server** with the trainees. The link should have ip address and not local host if the server and client are on the same network.
 
-# DASHBOARD
+## DASHBOARD
 
 overview of what you are going to expect in the system
 
@@ -16,15 +16,11 @@ Present- total number of employees present as of today
 **Compensatory Off/ C-Off** -This captures the information for employees who have been assigned compensatory off. that is, if they have worked on their weekly off or during the holidays if asked by management.
 **Contract expired** -if employees are under contract. those whose contract has expired as of the present day are displayed on the dashboard.
 
-# end of dashbord
-
-**MENU ON THE LEFT**
-
-### MASTERS
+## MASTERS
 
 similar to the old TA, Used to adding new or edit existing entries.
 
-## Placement Masters-
+### Placement Masters-
 
 **To add a department**- when you click on department it shows the existing departments. The systems has an ADD BUTTON that is BLUE in color.
 The fields with a red asteric are mandatory fields.
@@ -33,7 +29,7 @@ The fields with a red asteric are mandatory fields.
 
 **same logic goes to the other fileds(Sub department, designation, category, class, position, master one, master two, location)**
 
-## Shift
+### Shift
 
 Used to define the shifts that the employess are assigned.
 **To define a shift** in the new system, you need to select shift type- normal
@@ -46,21 +42,19 @@ e.g Lunch break Start time 13:00 End Time 14:00
 Applicable on - set the days which the shift will be applicable
 **Time Range**- depending on how the employees clock, any employees who clock between the time set is allocated the shift.
 
-## Time Off Reason
+### Time Off Reason
 
 When you want to give an employee a time off you can define the reason for the time off in the masters section.
 
-## Company Structure
+### Company Structure
 
 **Holiday**- This is where you define the holidays that the company recognizes. If holidays arenot defined in the system and employees don't clock the system picks absent.
 in this new system if you check the repeat holiday checkbox and assign a date for the holiday, you'll not have to redefine the holiday the succeeding years.
 If the holiday falls on a weekend and is pushed to a Monday, you'll have to recreate it manually and slect the monday date but do not select the repeat option.
 
-# end of Masters
+## EMPLOYEE
 
-### EMPLOYEE
-
-## Employee Details
+### Employee Details
 
 This section shows the list of employees and the information captured by the system
 click the ADD BUTTON in BLUE TO capture new employee and their details.
@@ -73,20 +67,20 @@ To key in all other info other than the employee details click on the details ic
 
 on the employeee info if the **clocking card number is not assigned** you go to clocking card management
 
-### CLOCKING CARD MANAGEMENT
+## CLOCKING CARD MANAGEMENT
 
 Clocking card number is a unique identifier assigned to each employee that the system uses to track their working hours.
 
-## Card List
+### Card List
 
 Shows the details of the clocking card numbers assigned to particular employees and those are not assigned.
 **To add a new clocking card number** just click the add button and enter the start number that you want to use. the system will auto generate the rest of the digits to give 10 digits
 When you search the card in the card list the card status shows available
 **on the last column on status click on assign** and search the employee and input the allocation date (the date that the employee started to clock, if you dont remember input the date of joining)
 
-**_ EMPLOYEE _**
+## EMPLOYEE
 
-## Employee Separation
+### Employee Separation
 
 **In the old system** you had to return card and then separate the employee.
 **In the new system** there is a setting to automatically return card upon separation.
@@ -102,11 +96,11 @@ The system has the option to rejoin the employee in future after termination.
 **employee-rejoining employment** enter name and the new rejoining date and remarks(reason for joining)
 NB: You cannot delete an employee in the system. The employee history is important if they are to be rejoined
 
-### LEAVE
+## LEAVE
 
-## Setup
+### Setup
 
-# Leave Master
+#### Leave Master
 
 This is where the leaves are defined
 click on the add button and enter the leave information as defined in the old system
@@ -119,8 +113,16 @@ select payroll number, select leave name, click the checkbox at the top of the e
 **opening balances** where applicable
 The essence of giving leave opening balances to an employee lies in ensuring accurate and fair tracking of their entitled time off from the very beginning of their employment or a new leave cycle.
 If an employee is entitled to 24 days of annual leave per year, their opening balance at the start of the year would be 24 days. If they are hired mid-year, the opening balance might be prorated, e.g., 12 days for 6 months.
-# Leave Transaction 
+#### Leave Transaction 
 This is where you do the leave application. In the sytem  you cannot be able to apply a leave for an employee if they are not leave appplicable under leave assignment and have opening balances in Masters
 __leave application__
+select employee payroll number, request date(date that you are applying the leave), leave name, from date,and to date
+leave days will auto generate
+you can adjust if it it a half day leave and which half it will take effect.
+In this system there is the option to attach a document
 
+when you save and come back to the leave appplication module, you'll see the leave tht has been applied.
 
+__leave adjustment__
+Applicable in the case whereby an employees leave has been approved but you need the employee back to work. if you had applied leave for an employee for 25 days and you need to adjust the leave by 10 days so that they can report back to work for the 5 days, enter the payroll number, leave type, leave adjustment date() and click the drop down button to reveal deduct and enter 5 on the input field.
+__leave encachment__
