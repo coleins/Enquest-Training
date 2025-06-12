@@ -46,10 +46,10 @@ The Enable SSL checkbox should only be clicked to test
 
 Ensure to have both Paymaster 12 setup and TAPA dll folders
 
-run the paymaster setup (blue icon ). the file path during instalation is Bitplus/paymaster
-copy the TAPA dll folder and paste in the bitplus folder (sibling to paymaster)
-in open the Tapa folder and run as admin the BSPLRegKeyDecryptRegistration_64Bit and BitNetPostingRegistration_64Bit
-copy the TAPA dll files to the syswow64 folder in drive C
+Run the paymaster setup (blue icon ). the file path during instalation is Bitplus/paymaster
+Copy the TAPA dll folder and paste in the bitplus folder (sibling to paymaster)
+Open the Tapa folder and run as admin the BSPLRegKeyDecryptRegistration_64Bit and BitNetPostingRegistration_64Bit
+Copy the TAPA dll files to the syswow64 folder in drive C
 Pull shortcut from the server by going to the bitplus folder win + R //ip or pc name, if access is limited then look for the paymaster application and pull the shortcut to the desktop
 
 #UPDATE PAYMASTER DESKTOP#################################################

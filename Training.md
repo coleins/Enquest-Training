@@ -1,4 +1,4 @@
-**TIME AND ATTENDANCE TRAINING**
+#### TIME AND ATTENDANCE TRAINING
 At the start of the meeting **share the link to the server** with the trainees. The link should have ip address and not local host if the server and client are on the same network.
 
 # DASHBOARD
@@ -115,7 +115,12 @@ click on the add button and enter the leave information as defined in the old sy
 
 **how to do leave assignment**
 Is the process of making an employee eligible for a leave
-select payroll number, select leave name, click the checkbox at the checkbox on top of the entry creted t the bottom to select all then save at the bottom.
+select payroll number, select leave name, click the checkbox at the top of the entry created at the bottom to select all then save at the bottom.
 **opening balances** where applicable
 The essence of giving leave opening balances to an employee lies in ensuring accurate and fair tracking of their entitled time off from the very beginning of their employment or a new leave cycle.
 If an employee is entitled to 24 days of annual leave per year, their opening balance at the start of the year would be 24 days. If they are hired mid-year, the opening balance might be prorated, e.g., 12 days for 6 months.
+# Leave Transaction 
+This is where you do the leave application. In the sytem  you cannot be able to apply a leave for an employee if they are not leave appplicable under leave assignment and have opening balances in Masters
+__leave application__
+
+
