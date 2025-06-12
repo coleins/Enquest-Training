@@ -6,9 +6,9 @@ At the start of the meeting **share the link to the server** with the trainees. 
 
 overview of what you are going to expect in the system
 
-**Total Head Count** -active number of employees in the organization
-**Present** total number of employees present as of today
-**Absent** total number of employees absent as of today, reason may be failure to clock in, or those on leave and information has not been updated in the system, those who are on their weekly off but their info is not updated in the system
+___Total Head Count__ -active number of employees in the organization
+___Present__ total number of employees present as of today
+__Absent__ total number of employees absent as of today, reason may be failure to clock in, or those on leave and information has not been updated in the system, those who are on their weekly off but their info is not updated in the system
 **Late in** indidcates the number of employees who have clocked in late as of the start time of their shift.
 **Early Out** employees have clocked out earlier than the end of the shift as of today
 **On Leave** Indicates the number of employees on leave as of today. if the leave is captured corerectly it will show on leave card. if not it will appear on the absent card.
