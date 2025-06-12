@@ -129,18 +129,23 @@ When you search the card in the card list the card status shows available
 
 ### Employee Separation
 
-**In the old system** you had to return card and then separate the employee.
-**In the new system** there is a setting to automatically return card upon separation.
+#### In the old system
+you had to return card and then separate the employee.
+#### In the new system
+there is a setting to automatically return card upon separation.
 On the card replacement reason there should be a reason defined e.g Resigned, Terminated
-On the **general setup- configurations- employee setting- separation setting** on the separation setting check the auto surrender icard on Employee Separation option
-To separate an employee go to **employee-separation-request type** select request type being the reason for the separation.
-**employee-separation-request** select employee payroll number, request type, enter date, and all the red asterics to be field.
+#### general setup- configurations- employee setting- separation setting
+on the separation setting check the auto surrender icard on Employee Separation option
+
+#### employee-separation-request type
+To separate an employee select request type being the reason for the separation.
+#### employee-separation-request
+select employee payroll number, request type, enter date, and all the red asterics to be field.
 
 The difference between the new and old system is that when employee is separated their details is greyed when you search the employee but in the new system, the employee wont be visible unless you check the separated(red icon) on the employee details
 on the old system there was no separate list for the separated employees
-
-The system has the option to rejoin the employee in future after termination.
-**employee-rejoining employment** enter name and the new rejoining date and remarks(reason for joining)
+#### employee-rejoining employment
+The system has the option to rejoin the employee in future after termination. enter name and the new rejoining date and remarks(reason for joining)
 NB: You cannot delete an employee in the system. The employee history is important if they are to be rejoined
 
 ## LEAVE
