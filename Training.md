@@ -209,10 +209,16 @@ Select the shift schedule type to be either employee wise or bulk update
 For either all employees or specific employees, click on shift management at the bottom(blue button) then choose the shift, day type and duration applicable.
 For weekly offs and compensatory offs/ c-off if an employee is supposed to be on a weekly of on the first and last friday of the month,
 
-#### Out Station Visit
+### Out Station Visit
 
 Refers to an employee's work-related travel to a location outside their usual workplace.
 Rather than marking them as present manually, you can assign them an outstation visit which will mark them as present with a remark of outstation visit.
 
 click on add and fill all the info that is required
-Entry Date is the date when the employee is eligible for the out station visits
+Entry Date is the date when the employee is eligible for the out station visits(you can input present day if not advised). Can only be approved using admin account.
+
+### Time Off
+
+Time off is a period of time where an employee is not working. The employee may use this time to rest, travel, or take care of personal matters.
+
+### Process Attendance Data
