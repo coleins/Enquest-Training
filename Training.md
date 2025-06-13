@@ -222,3 +222,18 @@ Entry Date is the date when the employee is eligible for the out station visits(
 Time off is a period of time where an employee is not working. The employee may use this time to rest, travel, or take care of personal matters.
 
 ### Process Attendance Data
+
+In the old system you used to go to the commaster software, and download data and come to the TA and download again before processing
+In the new system, you download data in the commaster software only, in the new system it is auto downloaded
+and auto process the data.
+You only come to check reports
+NB: IF THE REPORT IS NOT VISIBLE YOU CAN PROCESS MANUALLY
+
+### Attendance Register
+
+when you enter the payroll number of the employee you want to view their attendance, it displays the shift, shift time, in time, out time, clocked hours, pay hours, status whether present or absent.
+On the description column it will show the remarks for the present ones who are on out station visits
+
+### Pass Data to Payroll
+
+If the employee passes ot1, ot2, lost hours or absenteeism data to payroll, check the checkbox at the bottom. Ensure to adjust the input fields accordingly.
