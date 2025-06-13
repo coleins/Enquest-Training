@@ -1,17 +1,40 @@
-#COMMASTER INSTALLATION############################################
+# COMMASTER INSTALLATION
 
-COMMASTER SETUP_1.14 - Run the commaster setup extracted- blue icon in
-ALL COMMASTER DLLS- copy all-paste Bitplus Commaster
-LATEST ZEEMKEEPER- copy all from files folder- paste sysWoW64(windows system64)
-sdk64- copy all dlls- paste sysWoW64
+## COMMASTER SETUP_1.14
+
+Run the commaster setup extracted- blue icon in
+
+## ALL COMMASTER DLLS
+
+copy all-paste Bitplus Commaster
+
+## LATEST ZEEMKEEPER
+
+copy all from files folder- paste sysWoW64(windows system64)
+
+## sdk64
+
+copy all dlls- paste sysWoW64
 Auto install-sdk-bat from sysWoW64 (run as admin)
-SUPREMA- copy all dlls-paste to sysWoW64
-COMMASTER UPDATE VERSION 1.76- copy all folder components- paste in Bitplus Commaster folder
-LICENSE HANDLER UPDATE VERSION 1.6_1 - copy all files paste in Bitplus Commaster
-APPS- run as admin Commaster.exe/ or in desktop shortcut
+
+## SUPREMA
+
+copy all dlls-paste to sysWoW64
+
+## COMMASTER UPDATE VERSION 1.76
+
+copy all folder components- paste in Bitplus Commaster folder
+
+## LICENSE HANDLER UPDATE VERSION 1.6_1
+
+copy all files paste in Bitplus Commaster
+
+## APPS
+
+run as admin Commaster.exe/ or in desktop shortcut
 Go to licence handler in Bitplus Commaster and stop all services then copy all dlls and paste in Commaster Bitplus folder
 
-EMAIL SETUP#######################################################
+# EMAIL SETUP
 
 open MAIL SETUP- run mail sett.msi
 select Everyone in the installation process
@@ -39,7 +62,7 @@ The Enable SSL checkbox should only be clicked to test
 | GMX Mail                | `smtp.gmx.com`                      | 587                     | 465              |
 | FastMail                | `smtp.fastmail.com`                 | 587                     | 465              |
 
-#PAYMASTER DESKTOP INSTALLATION##########################################
+# PAYMASTER DESKTOP INSTALLATION
 
 Ensure to have both Paymaster 12 setup and TAPA dll folders
 
@@ -49,7 +72,8 @@ Open the Tapa folder and run as admin the BSPLRegKeyDecryptRegistration_64Bit an
 Copy the TAPA dll files to the syswow64 folder in drive C
 Pull shortcut from the server by going to the bitplus folder win + R //ip or pc name, if access is limited then look for the paymaster application and pull the shortcut to the desktop
 
-#UPDATE PAYMASTER DESKTOP#################################################
+# UPDATE PAYMASTER DESKTOP
+
 Rename the current paymaster in the bitplus folder
 Look for the PayMaster12 Version 12.0.736_1 (36.1) or later
 Unzip and copy the paymaster.exe file to the server bitplus folder
