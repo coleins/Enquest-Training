@@ -9,9 +9,6 @@ SUPREMA- copy all dlls-paste to sysWoW64
 COMMASTER UPDATE VERSION 1.76- copy all folder components- paste in Bitplus Commaster folder
 LICENSE HANDLER UPDATE VERSION 1.6_1 - copy all files paste in Bitplus Commaster
 APPS- run as admin Commaster.exe/ or in desktop shortcut
-
-#COMMASTER UPDATE################################################
-
 Go to licence handler in Bitplus Commaster and stop all services then copy all dlls and paste in Commaster Bitplus folder
 
 EMAIL SETUP#######################################################

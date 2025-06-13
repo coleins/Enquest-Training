@@ -170,7 +170,6 @@ click on the add button and enter the leave information as defined in the old sy
 #### Leave Assignment
 
 **how to apply leave**
-**how to do leave assignment**
 Is the process of making an employee eligible for a leave
 select payroll number, select leave name, click the checkbox at the top of the entry created at the bottom to select all then save at the bottom.
 
@@ -192,7 +191,7 @@ leave days will auto generate
 you can adjust if it it a half day leave and which half it will take effect.
 In this system there is the option to attach a document
 
-when you save and come back to the leave appplication module, you'll see the leave tht has been applied.
+when you save and come back to the leave appplication module, you'll see the leave that has been applied.
 
 #### leave adjustment
 
@@ -201,3 +200,19 @@ Applicable in the case whereby an employees leave has been approved but you need
 #### leave Encashment
 
 Applicable for instance if an employees has a leave balance of 15 days and there is an agreement that they go for 5 days and are paid for the remeinder of the days instead.
+
+## Time and Attendance
+
+### Shift Schedule Management
+
+Select the shift schedule type to be either employee wise or bulk update
+For either all employees or specific employees, click on shift management at the bottom(blue button) then choose the shift, day type and duration applicable.
+For weekly offs and compensatory offs/ c-off if an employee is supposed to be on a weekly of on the first and last friday of the month,
+
+#### Out Station Visit
+
+Refers to an employee's work-related travel to a location outside their usual workplace.
+Rather than marking them as present manually, you can assign them an outstation visit which will mark them as present with a remark of outstation visit.
+
+click on add and fill all the info that is required
+Entry Date is the date when the employee is eligible for the out station visits
