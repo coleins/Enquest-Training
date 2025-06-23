@@ -188,7 +188,7 @@ This is where you do the leave application. In the sytem you cannot be able to a
 
 select employee payroll number, request date(date that you are applying the leave), leave name, from date,and to date
 leave days will auto generate
-you can adjust if it it a half day leave and which half it will take effect.
+you can adjust if it is a half day leave and which half it will take effect.
 In this system there is the option to attach a document
 
 when you save and come back to the leave appplication module, you'll see the leave that has been applied.

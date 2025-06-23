@@ -46,6 +46,7 @@ SMTP Server Name- usually in the format "smtp.domain.com" or "mail.domain.com," 
 SMTP Port No- most common SMTP port number is 25. However, other ports like 587 and 465 are also used, especially for secure connections. Port 25 is the traditional default for unencrypted SMTP, while 587 is favored for secure submissions with authentication, and 465 was historically used for SMTPS but is less common now.
 SMTP Username- refers to the email address associated with your email account or the specific SMTP credentials provided by your email service provider
 The Enable SSL checkbox should only be clicked to test
+Password is generated from the app password in google settings after enabling 2FA
 
 | **Email Provider**      | **SMTP Server Name**                | **Port (TLS/STARTTLS)** | **Port (SSL)**   |
 | ----------------------- | ----------------------------------- | ----------------------- | ---------------- |
@@ -77,3 +78,8 @@ Pull shortcut from the server by going to the bitplus folder win + R //ip or pc 
 Rename the current paymaster in the bitplus folder
 Look for the PayMaster12 Version 12.0.736_1 (36.1) or later
 Unzip and copy the paymaster.exe file to the server bitplus folder
+
+### for error message timeout on paymaster
+
+EXEC sp_MSforeachtable @command1="print '?' DBCC DBREINDEX ('?', ' ', 80)"
+enter this query on the sql right click, new query paste
