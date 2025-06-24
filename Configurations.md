@@ -73,7 +73,7 @@ Open the Tapa folder and run as admin the BSPLRegKeyDecryptRegistration_64Bit an
 Copy the TAPA dll files to the syswow64 folder in drive C
 Pull shortcut from the server by going to the bitplus folder win + R //ip or pc name, if access is limited then look for the paymaster application and pull the shortcut to the desktop
 
-# UPDATE PAYMASTER DESKTOP
+## UPDATE PAYMASTER DESKTOP
 
 Rename the current paymaster in the bitplus folder
 Look for the PayMaster12 Version 12.0.736_1 (36.1) or later
