@@ -83,3 +83,7 @@ Unzip and copy the paymaster.exe file to the server bitplus folder
 
 EXEC sp_MSforeachtable @command1="print '?' DBCC DBREINDEX ('?', ' ', 80)"
 enter this query on the sql right click, new query paste
+
+### COMMASTER DEVICE SETUP
+
+PORT- 4370 default
