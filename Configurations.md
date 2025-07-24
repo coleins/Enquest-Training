@@ -1,8 +1,10 @@
 # COMMASTER INSTALLATION
 
+Files: Commaster Setup, Commaster Update 1.79
+
 ## COMMASTER SETUP_1.14
 
-Run the commaster setup extracted- blue icon in
+Run the commaster setup extracted- blue icon
 
 ## ALL COMMASTER DLLS
 
@@ -32,6 +34,7 @@ copy all files paste in Bitplus Commaster
 ## APPS
 
 run as admin Commaster.exe/ or in desktop shortcut
+run licence handler
 Go to licence handler in Bitplus Commaster and stop all services then copy all dlls and paste in Commaster Bitplus folder
 
 # EMAIL SETUP
@@ -87,3 +90,14 @@ enter this query on the sql right click, new query paste
 ### COMMASTER DEVICE SETUP
 
 PORT- 4370 default
+
+# Port that needs to be opened on this network for us to access the punching data from remote machines
+
+Installation and configuration is done. Input username: admin to login to Commaster
+
+Enquest: port 2021
+Paymaster: port 2026
+EnquestHCM Mobile API: port 2031
+MailService API: port 2025
+Paymaster web API: port 2027
+commaster port for adms communication: random not used
