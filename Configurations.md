@@ -29,13 +29,12 @@ copy all folder components- paste in Bitplus Commaster folder
 
 ## LICENSE HANDLER UPDATE VERSION 1.6_1
 
-copy all files paste in Bitplus Commaster
+run licence handler, stop all services then copy all files paste in Bitplus Commaster then restart the services after running licence handler as admin
 
 ## APPS
 
 run as admin Commaster.exe/ or in desktop shortcut
-run licence handler
-Go to licence handler in Bitplus Commaster and stop all services then copy all dlls and paste in Commaster Bitplus folder
+Create company if it doesn't exist n
 
 # EMAIL SETUP
 
@@ -89,7 +88,7 @@ enter this query on the sql right click, new query paste
 
 ### COMMASTER DEVICE SETUP
 
-PORT- 4370 default
+NODE PORT- 4370 default
 
 # Port that needs to be opened on this network for us to access the punching data from remote machines
 
