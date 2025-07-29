@@ -1,41 +1,3 @@
-# COMMASTER INSTALLATION
-
-Files: Commaster Setup, Commaster Update 1.79
-
-## COMMASTER SETUP_1.14
-
-Run the commaster setup extracted- blue icon
-
-## ALL COMMASTER DLLS
-
-copy all-paste Bitplus Commaster
-
-## LATEST ZEEMKEEPER
-
-copy all from files folder- paste sysWoW64(windows system64)
-
-## sdk64
-
-copy all dlls- paste sysWoW64
-Auto install-sdk-bat from sysWoW64 (run as admin)
-
-## SUPREMA
-
-copy all dlls-paste to sysWoW64
-
-## COMMASTER UPDATE VERSION 1.76
-
-copy all folder components- paste in Bitplus Commaster folder
-
-## LICENSE HANDLER UPDATE VERSION 1.6_1
-
-run licence handler, stop all services then copy all files paste in Bitplus Commaster then restart the services after running licence handler as admin
-
-## APPS
-
-run as admin Commaster.exe/ or in desktop shortcut
-Create company if it doesn't exist n
-
 # EMAIL SETUP
 
 open MAIL SETUP- run mail sett.msi
@@ -86,9 +48,42 @@ Unzip and copy the paymaster.exe file to the server bitplus folder
 EXEC sp_MSforeachtable @command1="print '?' DBCC DBREINDEX ('?', ' ', 80)"
 enter this query on the sql right click, new query paste
 
-### COMMASTER DEVICE SETUP
+# COMMASTER INSTALLATION
 
-NODE PORT- 4370 default
+Files: Commaster Setup, Commaster Update 1.79
+
+## COMMASTER SETUP_1.14
+
+Run the commaster setup extracted- blue icon
+
+## ALL COMMASTER DLLS
+
+copy all-paste Bitplus Commaster
+
+## LATEST ZEEMKEEPER
+
+copy all from files folder- paste sysWoW64(windows system64)
+
+## sdk64
+
+copy all dlls- paste sysWoW64
+Auto install-sdk-bat from sysWoW64 (run as admin)
+
+## SUPREMA
+
+copy all dlls-paste to sysWoW64
+
+## COMMASTER UPDATE VERSION 1.76
+
+copy all folder components- paste in Bitplus Commaster folder
+
+## LICENSE HANDLER UPDATE VERSION 1.6_1
+
+run licence handler, stop all services then copy all files paste in Bitplus Commaster then restart the services after running licence handler as admin
+
+## APPS
+
+run as admin Commaster.exe/ or in desktop shortcut
 
 # Port that needs to be opened on this network for us to access the punching data from remote machines
 
@@ -100,3 +95,43 @@ EnquestHCM Mobile API: port 2031
 MailService API: port 2025
 Paymaster web API: port 2027
 commaster port for adms communication: random not used
+
+# COMMASTER DEVICE SETUP
+## Company Info
+
+Go to general and fill the info short name, code, and company name and save
+Click on Database enter sql credentials for the server where commaster is hosted
+Database name is COMMASTER, enter username e.g sa and sql password
+select mixed mode and save
+
+## Genereal Settings
+
+### Comapny settings
+close form after save
+clear attendancelogdata while downloading
+
+### Employee settings
+sql details
+database name CO1
+sa
+password
+
+
+
+
+
+## Device setup Face Pro
+
+Attendance Device Setup for TA
+SET UP
+
+COMMASTER
+ADMS service setting
+enter server ip
+enter port random 6060
+
+create file
+
+
+
+Node setup port- 4370 default
