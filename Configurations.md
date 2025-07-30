@@ -130,11 +130,14 @@ create file
 ## Node Setup
 
 select node type
-model finerprint- BioSH5000
-nade name (as advised by client)
+model fingerprint- BioSH5000 facepro- facepro
+node name (as advised by client)
 communication (NETWORK)
+node id 1 0r 2 0r 3 etc
 ip address (unused ip address within the network)
 port no (4370)
 used for (in/out)
 active yes
 serial number(from the device)
+
+adms -face pro only
