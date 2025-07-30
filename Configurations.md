@@ -97,6 +97,7 @@ Paymaster web API: port 2027
 commaster port for adms communication: random not used
 
 # COMMASTER DEVICE SETUP
+
 ## Company Info
 
 Go to general and fill the info short name, code, and company name and save
@@ -104,34 +105,36 @@ Click on Database enter sql credentials for the server where commaster is hosted
 Database name is COMMASTER, enter username e.g sa and sql password
 select mixed mode and save
 
-## Genereal Settings
+## General Settings
 
 ### Comapny settings
+
 close form after save
 clear attendancelogdata while downloading
 
 ### Employee settings
+
 sql details
 database name CO1
 sa
 password
 
-
-
-
-
 ## Device setup Face Pro
 
-Attendance Device Setup for TA
-SET UP
+### ADMS service setting
 
-COMMASTER
-ADMS service setting
 enter server ip
 enter port random 6060
-
 create file
 
+## Node Setup
 
-
-Node setup port- 4370 default
+select node type
+model finerprint- BioSH5000
+nade name (as advised by client)
+communication (NETWORK)
+ip address (unused ip address within the network)
+port no (4370)
+used for (in/out)
+active yes
+serial number(from the device)
