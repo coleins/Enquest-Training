@@ -141,3 +141,80 @@ active yes
 serial number(from the device)
 
 adms -face pro only
+
+# MOUNTING DEVICE TO WALL
+
+To mount the eSSL AiFace Mars (a biometric facial recognition attendance system) to the wall, follow these general steps. This guide is based on typical mounting methods used for eSSL biometric devices like the AiFace series.
+
+🔧 What You’ll Need
+Mounting bracket (usually included in the box)
+
+Screws and wall plugs (typically provided)
+
+Drill with appropriate bits
+
+Screwdriver
+
+Spirit level (optional but recommended)
+
+Pencil/marker for marking
+
+Wall anchors (if mounting on concrete or plaster)
+
+🛠️ Step-by-Step Mounting Instructions
+
+1. Unbox and Identify Components
+   Ensure you have:
+
+AiFace Mars device
+
+Wall mounting bracket
+
+Screws & plugs
+
+Power adapter or POE cable (based on your setup)
+
+2. Choose the Wall Location
+   Mount the device at face height (~1.4 to 1.6 meters from the ground).
+
+Ensure good lighting and avoid strong backlight or direct sunlight.
+
+Ensure the surface is flat and solid (drywall, concrete, wood, etc.)
+
+3. Mark the Mounting Holes
+   Take the mounting bracket.
+
+Hold it against the wall where you want to install the device.
+
+Use a pencil to mark the positions of the screw holes.
+
+Use a spirit level to ensure it’s aligned horizontally.
+
+4. Drill Holes
+   Drill holes at the marked points.
+
+If mounting on concrete or plaster, insert wall plugs.
+
+5. Attach the Bracket
+   Fix the mounting bracket to the wall using the provided screws.
+
+Ensure it's tightly secured.
+
+6. Connect the Wiring
+   Connect power (DC adapter or POE).
+
+Connect network cable (LAN).
+
+Connect any other optional wiring (access control, exit button, door lock, etc.)
+
+⚠️ Tip: Ensure power is OFF while connecting wires.
+
+7. Mount the Device
+   Slide or clip the AiFace Mars onto the wall bracket as per the design.
+
+Secure it using screws or latch provided on the bracket.
+
+8. Power On and Configure
+   Once mounted and wired, turn on the device.
+
+Follow the screen instructions or connect via web to configure IP, time, users, etc.
