@@ -79,7 +79,7 @@ copy all folder components- paste in Bitplus Commaster folder
 
 ## LICENSE HANDLER UPDATE VERSION 1.6_1
 
-run licence handler, stop all services then copy all files paste in Bitplus Commaster then restart the services after running licence handler as admin
+copy the files to commaster folder, run licence Service handle, stop all services then copy all files paste in Bitplus Commaster then restart the services after running licence handler as admin
 
 ## APPS
 
