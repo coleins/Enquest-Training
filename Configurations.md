@@ -85,6 +85,13 @@ copy the files to commaster folder, run licence Service handle, stop all service
 
 run as admin Commaster.exe/ or in desktop shortcut
 
+## JANSEN LICENSE ERROR RESOLUTION
+
+1. stop and uninnstall the license service handler in bitplus commaster
+2. rename the commaster xml file
+3. copy and paste latest commaster, latest license service handler, latest Commaster.lic
+4. Delete any file with the name tappscomm
+
 # Port that needs to be opened on this network for us to access the punching data from remote machines
 
 Installation and configuration is done. Input username: admin to login to Commaster
