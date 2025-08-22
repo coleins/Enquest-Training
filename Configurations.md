@@ -136,16 +136,16 @@ create file
 
 ## Node Setup
 
-select node type
-model fingerprint- BioSH5000 facepro- face pro
-node name (as advised by client)
-communication (NETWORK)
-node id 1 0r 2 0r 3 etc
-ip address (unused ip address within the network)
-port no (4370)
-used for (in/out)
-active yes
-serial number(from the device)
+1. select node type
+2. model fingerprint- BioSH5000 facepro- face pro
+3. node name (as advised by client)
+4. communication (NETWORK)
+5. node id 1 0r 2 0r 3 etc
+6. 7. ip address (unused ip address within the network)
+7. port no (4370)
+8. used for (in/out)
+9. active yes
+10. serial number(from the device)
 
 adms -face pro only
 
