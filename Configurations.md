@@ -1,16 +1,16 @@
 # EMAIL SETUP
 
-open MAIL SETUP- run mail sett.msi
-select Everyone in the installation process
-MAIL SERVICE UPDATE VERSION 1.5- copy all dlls paste in program86 in C:\Program Files (x86)\Bitplus\Email Service\
-In C:\Program Files (x86)\Bitplus\Email Service\ - open scheduler setup run as administrator
-open server info to check the server connection and database name, test connection
-in the mail settings tick the default checkbox
-SMTP Server Name- usually in the format "smtp.domain.com" or "mail.domain.com," though it can vary depending on your email provider.
-SMTP Port No- most common SMTP port number is 25. However, other ports like 587 and 465 are also used, especially for secure connections. Port 25 is the traditional default for unencrypted SMTP, while 587 is favored for secure submissions with authentication, and 465 was historically used for SMTPS but is less common now.
-SMTP Username- refers to the email address associated with your email account or the specific SMTP credentials provided by your email service provider
-The Enable SSL checkbox should only be clicked to test
-Password is generated from the app password in google settings after enabling 2FA
+1. open MAIL SETUP- run mail sett.msi
+2. select Everyone in the installation process
+3. MAIL SERVICE UPDATE VERSION 1.5- copy all dlls paste in program86 in C:\Program Files (x86)\Bitplus\Email Service\
+4. In C:\Program Files (x86)\Bitplus\Email Service\ - open scheduler setup run as administrator
+5. open server info to check the server connection and database name, test connection
+6. in the mail settings tick the default checkbox
+7. SMTP Server Name- usually in the format "smtp.domain.com" or "mail.domain.com," though it can vary depending on your email provider.
+8. SMTP Port No- most common SMTP port number is 25. However, other ports like 587 and 465 are also used, especially for secure connections. Port 25 is the traditional default for unencrypted SMTP, while 587 is favored for secure submissions with authentication, and 465 was historically used for SMTPS but is less common now.
+9. SMTP Username- refers to the email address associated with your email account or the specific SMTP credentials provided by your email service provider
+10. The Enable SSL checkbox should only be clicked to test
+11. Password is generated from the app password in google settings after enabling 2FA
 
 | **Email Provider**      | **SMTP Server Name**                | **Port (TLS/STARTTLS)** | **Port (SSL)**   |
 | ----------------------- | ----------------------------------- | ----------------------- | ---------------- |
@@ -29,21 +29,21 @@ Password is generated from the app password in google settings after enabling 2F
 
 # PAYMASTER DESKTOP INSTALLATION
 
-Ensure to have both Paymaster 12 setup and TAPA dll folders
+1. Ensure to have both Paymaster 12 setup and TAPA dll folders
 
-Run the paymaster setup (blue icon ). the file path during instalation is Bitplus/paymaster
-Copy the TAPA dll folder and paste in the bitplus folder (sibling to paymaster)
-Open the Tapa folder and run as admin the BSPLRegKeyDecryptRegistration_64Bit and BitNetPostingRegistration_64Bit
-Copy the TAPA dll files to the syswow64 folder in drive C
-Pull shortcut from the server by going to the bitplus folder win + R //ip or pc name, if access is limited then look for the paymaster application and pull the shortcut to the desktop
+2. Run the paymaster setup (blue icon ). the file path during instalation is Bitplus/paymaster
+3. Copy the TAPA dll folder and paste in the bitplus folder (sibling to paymaster)
+4. Open the Tapa folder and run as admin the BSPLRegKeyDecryptRegistration_64Bit and BitNetPostingRegistration_64Bit
+5. Copy the TAPA dll files to the syswow64 folder in drive C
+6. Pull shortcut from the server by going to the bitplus folder win + R //ip or pc name, if access is limited then look for the paymaster application and pull the shortcut to the desktop
 
 ## UPDATE PAYMASTER DESKTOP
 
-Rename the current paymaster in the bitplus folder
-Look for the PayMaster12 Version 12.0.736_1 (36.1) or later
-Unzip and copy the paymaster.exe file to the server bitplus folder
+1. Rename the current paymaster in the bitplus folder
+2. Look for the PayMaster12 Version 12.0.736_1 (36.1) or later
+3. Unzip and copy the paymaster.exe file to the server bitplus folder
 
-### for error message timeout on paymaster
+### reindex db in paymaster enquest
 
 EXEC sp_MSforeachtable @command1="print '?' DBCC DBREINDEX ('?', ' ', 80)"
 enter this query on the sql right click, new query paste
@@ -96,21 +96,21 @@ run as admin Commaster.exe/ or in desktop shortcut
 
 Installation and configuration is done. Input username: admin to login to Commaster
 
-Enquest: port 2021
-Paymaster: port 2026
-EnquestHCM Mobile API: port 2031
-MailService API: port 2025
-Paymaster web API: port 2027
-commaster port for adms communication: random not used
+1. Enquest: port 2021
+2. Paymaster: port 2026
+3. EnquestHCM Mobile API: port 2031
+4. MailService API: port 2025
+5. Paymaster web API: port 2027
+6. commaster port for adms communication: random not used
 
 # COMMASTER DEVICE SETUP
 
 ## Company Info
 
-Go to general and fill the info short name, code, and company name and save
-Click on Database enter sql credentials for the server where commaster is hosted
-Database name is COMMASTER, enter username e.g sa and sql password
-select mixed mode and save
+1. Go to general and fill the info short name, code, and company name and save
+2. Click on Database enter sql credentials for the server where commaster is hosted
+3. Database name is COMMASTER, enter username e.g sa and sql password
+4. select mixed mode and save
 
 ## General Settings
 
