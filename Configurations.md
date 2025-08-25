@@ -87,7 +87,7 @@ run as admin Commaster.exe/ or in desktop shortcut
 
 ## JANSEN LICENSE ERROR RESOLUTION
 
-1. stop and uninnstall the license service handler in bitplus commaster
+1. stop and uninstall the license service handler in bitplus commaster
 2. rename the commaster xml file
 3. copy and paste latest commaster, latest license service handler, latest Commaster.lic
 4. Delete any file with the name tappscomm
