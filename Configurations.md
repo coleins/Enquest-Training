@@ -73,7 +73,7 @@ Auto install-sdk-bat from sysWoW64 (run as admin)
 
 copy all dlls-paste to sysWoW64
 
-## COMMASTER UPDATE VERSION 1.76
+## COMMASTER UPDATE VERSION 1.79
 
 copy all folder components- paste in Bitplus Commaster folder
 
@@ -225,3 +225,6 @@ Secure it using screws or latch provided on the bracket.
    Once mounted and wired, turn on the device.
 
 Follow the screen instructions or connect via web to configure IP, time, users, etc.
+
+During relocation of db commaster if it is not bringing the option to connect to an existing db Comm_Master.xml and reopen commaster.exe
+During relocation of TA if not displaying years to the current as per the old server, check the shortcut you are running

@@ -32,11 +32,11 @@ Indicates the number of employees on leave as of today. if the leave is captured
 
 ### Weely Off
 
-is when employees are on their resting day. indicates the number the number of employees whose weekly off is the present day. if the weekly off is captured corerectly it will show on weekly off card. if not it will appear on the absent card.
+is when employees are on their resting day. indicates the number the number of employees whose weekly off is the present day. if the weekly off is captured corerectly it will show on weekly off card. if not it will appear on the absent card. OT 2 if they work
 
 ### Holiday
 
-the system allows the user to add and customize holidays. the holiday in the dashboard therefore indicates the number of employees who have clocked in during the holiday. The system will indicate the hours that the employees are entitled to be paid for working during holidays. if there are employees whose shift is schedule to include the holidays will be marked as present if the clock in and absent is if they fail to clock in.
+the system allows the user to add and customize holidays. the holiday in the dashboard therefore indicates the number of employees who have clocked in during the holiday. The system will indicate the hours that the employees are entitled to be paid for working during holidays. if there are employees whose shift is schedule to include the holidays will be marked as present if the clock in and absent is if they fail to clock in. 0T 2 if they work
 
 ### Compensatory Off/ C-Off
 
@@ -237,4 +237,3 @@ On the description column it will show the remarks for the present ones who are 
 ### Pass Data to Payroll
 
 If the employee passes ot1, ot2, lost hours or absenteeism data to payroll, check the checkbox at the bottom. Ensure to adjust the input fields accordingly.
-
