@@ -228,3 +228,10 @@ Follow the screen instructions or connect via web to configure IP, time, users, 
 
 During relocation of db commaster if it is not bringing the option to connect to an existing db Comm_Master.xml and reopen commaster.exe
 During relocation of TA if not displaying years to the current as per the old server, check the shortcut you are running
+
+# HRMS OLD RELOCATION
+
+1. Copy HRMS and HRMS APPS from the old server(check IIS to see folder path)
+2. Host on iis using the same ports as from the old server
+3. Rename the WebHRcompany xml file in the APPS DATA folder in HRMS (could not have the name xml at the end)
+4. Enter database info(connect to existing database)
