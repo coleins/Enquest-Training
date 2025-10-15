@@ -275,3 +275,4 @@ generate the daily attendance report to be signed for legal purposes daily
 payslip design include numbe of worked hours in a month and signed by employee at the end of the month
 
 in and out for drivers and turn boys on the out device which is locked late in the night
+wednesday next week to be sorted 
