@@ -242,3 +242,36 @@ On the description column it will show the remarks for the present ones who are 
 ### Pass Data to Payroll
 
 If the employee passes ot1, ot2, lost hours or absenteeism data to payroll, check the checkbox at the bottom. Ensure to adjust the input fields accordingly.
+
+NAILS AND STEEL TRAINING HRMS/TA
+
+The new system is browser based, accessed via url via computer
+Focus on the hrm and ta system today
+Introduction bit of the training
+
+begin with dashboard during training
+go through the charts
+hrms charts understand
+disciplinary in the hrms module
+onboarding
+
+shifts
+leaves
+opening balances
+leave structure
+user/ user role
+set time lines for clocking in/out(Nails and Steel)
+
+customization
+birth data to be made mandatory
+employee information
+statutory information (because of the paternity leave 1 wife)
+shift(morning shift and night shift) approved on a daily before shift start.
+2 approvals for all employee data input into the system by hr(any changes made by the hr department)
+leave approvers to be provided with the leave opening balances and leave types
+role rights changes need approval any changes in the system
+1 hr lunch break, past the 1 hour to be deducted
+generate the daily attendance report to be signed for legal purposes daily
+payslip design include numbe of worked hours in a month and signed by employee at the end of the month
+
+in and out for drivers and turn boys on the out device which is locked late in the night
