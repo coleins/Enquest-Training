@@ -8,7 +8,7 @@ Overview of what you are going to expect in the system
 
 ### Total Head Count
 
-active number of employees in the organization
+Active number of employees in the organization
 
 ### Present
 
@@ -125,6 +125,10 @@ Shows the details of the clocking card numbers assigned to particular employees 
 When you search the card in the card list the card status shows available
 **on the last column on status click on assign** and search the employee and input the allocation date (the date that the employee started to clock, if you dont remember input the date of joining)
 
+#### accidentally assigned wrong clocking card number
+
+go to card list, search for the icard number,
+
 ## EMPLOYEE
 
 ### Employee Separation
@@ -137,6 +141,7 @@ you had to return card and then separate the employee.
 
 there is a setting to automatically return card upon separation.
 On the card replacement reason there should be a reason defined e.g Resigned, Terminated
+**general setup-configuration-employee setting**
 
 #### general setup- configurations- employee setting- separation setting
 
