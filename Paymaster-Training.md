@@ -9,7 +9,9 @@
 ## Gross Pay is the total monthly pay before any statutory or voluntary deductions
 
 1. Taxable income = Gross Pay - Allowable Deductions (Statutory deductions)
-   **after calculating Gross Pay calculate the statutory deductions, other deductions and PAYE to be filled in the deductions column**
+
+### after calculating Gross Pay calculate the statutory deductions, other deductions and PAYE to be filled in the deductions column
+
 2. Contribution = NSSF + Pension
 3. PAYE = Tax Chargeable - Personal Relief
 4. Net Pay = Gross Pay - (PAYE + NSSF + SHIF + Housing Levy)
