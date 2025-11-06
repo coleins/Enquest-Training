@@ -24,17 +24,7 @@
 4. In the gratuity table contribution is NSSF + Pension
 5. Gratuity formula provided by client to be input in the service gratuity setting in payroll settings(Minimum No. Of Year(s) For Gratuity, Gratuity Calculated On, )
 
-   Year
-   Previous Gross (A)
-   Contribution (B)
-   Prev. Taxable Gross (C=A-B)
-   Service Gratuity (D)
-   New Gross (E=A+D)
-   New Taxable Gross (F = E-B)
-   New Tax Amount (G)
-   Tax Relief (H)
-   Previous Tax Paid (I)
-   Taxable Pay (J=G-H-I)
+   
 
 | Year | Previous Gross (A) | Contribution (B) | Prev. Taxable Gross (C = A - B) | Service Gratuity (D) | New Gross (E = A + D) | New Taxable Gross (F = E - B) | New Tax Amount (G) | Tax Relief (H) | Previous Tax Paid (I) | Taxable Pay (J = G - H - I) |
 | ---- | -----------------: | ---------------: | ------------------------------: | -------------------: | --------------------: | ----------------------------: | -----------------: | -------------: | --------------------: | --------------------------: |
@@ -43,3 +33,18 @@
 | 2023 |          1,050,000 |           50,000 |                       1,000,000 |               90,000 |             1,140,000 |                     1,090,000 |            327,000 |         25,200 |               305,000 |                      -3,200 |
 | 2022 |            950,000 |           45,000 |                         905,000 |               85,000 |             1,035,000 |                       990,000 |            297,000 |         22,800 |               280,000 |                      -5,800 |
 | 2021 |            900,000 |           40,000 |                         860,000 |               80,000 |               980,000 |                       940,000 |            282,000 |         21,600 |               265,000 |                      -4,600 |
+
+
+| Column                      | Description                                                                                                                                    | Computation Formula / Logic                    |
+| :-------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------- |
+| **Year**                    | The financial or calendar year the computation refers to.                                                                                      | — *(Manually entered)*                         |
+| **Previous Gross (A)**      | The total gross income from the previous year before any deductions. This includes all earnings such as basic salary, allowances, and bonuses. | — *(Manually entered)*                         |
+| **Contribution (B)**        | The total statutory or voluntary deductions from the gross (e.g., NSSF, pension contribution).                                                 | — *(Manually entered)*                         |
+| **Prev. Taxable Gross (C)** | The taxable income after deducting contributions from the previous gross pay.                                                                  | `C = A - B`                                    |
+| **Service Gratuity (D)**    | A lump-sum or periodic benefit paid (e.g., at end of service or contract renewal).                                                             | — *(Manually entered)*                         |
+| **New Gross (E)**           | The adjusted gross income after adding the gratuity to the previous gross.                                                                     | `E = A + D`                                    |
+| **New Taxable Gross (F)**   | The taxable amount for the current computation period after subtracting contributions from the new gross.                                      | `F = E - B`                                    |
+| **New Tax Amount (G)**      | The total tax computed based on the **income tax table** or system tax logic applied to `F`.                                                   | *(System computed — based on yearly IT table)* |
+| **Tax Relief (H)**          | The allowable reduction in tax liability (e.g., monthly or annual personal relief).                                                            | — *(System computed or fixed amount)*          |
+| **Previous Tax Paid (I)**   | The total tax paid previously, before recalculation or adjustments.                                                                            | — *(Manually entered)*                         |
+| **Taxable Pay (J)**         | The net tax payable or refundable after considering relief and previously paid tax. A negative value means an overpayment/refund.              | `J = G - H - I`                                |
