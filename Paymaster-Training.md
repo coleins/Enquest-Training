@@ -35,3 +35,11 @@
    Tax Relief (H)
    Previous Tax Paid (I)
    Taxable Pay (J=G-H-I)
+
+
+   | Year | Previous Gross (A) | Contribution (B) | Prev. Taxable Gross (C = A - B) | Service Gratuity (D) | New Gross (E = A + D) | New Taxable Gross (F = E - B) | New Tax Amount (G) | Tax Relief (H) | Previous Tax Paid (I) | Taxable Pay (J = G - H - I) |
+| ---- | ------------------ | ---------------- | ------------------------------- | -------------------- | --------------------- | ----------------------------- | ------------------ | -------------- | --------------------- | --------------------------- |
+|      |                    |                  |                                 |                      |                       |                               |                    |                |                       |                             |
+|      |                    |                  |                                 |                      |                       |                               |                    |                |                       |                             |
+|      |                    |                  |                                 |                      |                       |                               |                    |                |                       |                             |
+
