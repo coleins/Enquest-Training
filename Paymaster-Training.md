@@ -22,3 +22,16 @@
 2. In the new system use Yearly Tax Table
 3. Calculation of gratuity in the new system is by deafult based on the last 5 years from the exit year backwards
 4. In the gratuity table contribution is NSSF + Pension
+5. Gratuity formula provided by client to be input in the service gratuity setting in payroll settings(Minimum No. Of Year(s) For Gratuity, Gratuity Calculated On, )
+
+   Year
+   Previous Gross (A)
+   Contribution (B)
+   Prev. Taxable Gross (C=A-B)
+   Service Gratuity (D)
+   New Gross (E=A+D)
+   New Taxable Gross (F = E-B)
+   New Tax Amount (G)
+   Tax Relief (H)
+   Previous Tax Paid (I)
+   Taxable Pay (J=G-H-I)
