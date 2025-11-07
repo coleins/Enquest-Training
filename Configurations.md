@@ -235,3 +235,5 @@ During relocation of TA if not displaying years to the current as per the old se
 2. Host on iis using the same ports as from the old server
 3. Rename the WebHRcompany xml file in the APPS DATA folder in HRMS (could not have the name xml at the end)
 4. Enter database info(connect to existing database)
+
+msvbvm50 run as admin on the machine with the error when viewing attendance register
