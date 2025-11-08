@@ -45,3 +45,20 @@
 | **Tax Relief (H)**          | The allowable reduction in tax liability (e.g., monthly or annual personal relief).                                                            | — _(System computed or fixed amount)_                                                   |
 | **Previous Tax Paid (I)**   | The total tax paid previously, before recalculation or adjustments.                                                                            | — _(Manually entered/System generated)_                                                 |
 | **Taxable Pay (J)**         | The net tax payable or refundable after considering relief and previously paid tax. A negative value means an overpayment/refund.              | `J = G - H - I`                                                                         |
+
+## NON CASH BENEFIT CALCULATION
+
+Under the Income Tax Act (Cap 470) and KRA PAYE regulations,
+non-cash benefits (also called fringe benefits or benefits-in-kind) that an employer provides to an employee are considered part of gross taxable income.
+
+Examples include:
+
+Free or subsidized housing
+
+Company car
+
+Meals, fuel, utilities, airtime, etc.
+
+Employer-paid personal bills
+
+However, there’s a de minimis (minimum) threshold — that is, small benefits below a certain total value per month don’t need to be taxed.
