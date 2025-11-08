@@ -20,7 +20,7 @@
 
 1. Import service gratuity from paymster desktop after it has calculated
 2. In the new system use Yearly Tax Table
-3. Calculation of gratuity in the new system is by deafult based on the last 5 years from the exit year backwards
+3. No of years to be included in the computation of gratuity should be provided by the client
 4. In the gratuity table contribution is NSSF + Pension
 5. Gratuity formula provided by client to be input in the service gratuity setting in payroll settings(Minimum No. Of Year(s) For Gratuity, Gratuity Calculated On, )
 
