@@ -49,15 +49,11 @@
 ## NON CASH BENEFIT CALCULATION
 
 Under the Income Tax Act (Cap 470) and KRA PAYE regulations,
-non-cash benefits (also called fringe benefits or benefits-in-kind) that an employer provides to an employee are considered part of gross taxable income.
+Non-Cash Benefits (also called fringe benefits or benefits-in-kind) that an employer provides to an employee are considered part of gross taxable income.
 
 Examples include:
 
-Free or subsidized housing
-
-Company car
-
-Meals, fuel, utilities, airtime, etc.
+Free or subsidized housing, Company car, Meals, fuel, utilities, airtime, etc.
 
 Employer-paid personal bills
 

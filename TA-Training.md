@@ -276,3 +276,7 @@ payslip design include number of worked hours in a month and signed by employee 
 
 in and out for drivers and turn boys on the out device which is locked late in the night
 wednesday next week to be sorted
+
+## shift definition
+
+With regards auto shift, ensure to define in and out ranges for the different shifts.make sure there are no overlapping ranges in deifferentr shifts in the same day.
