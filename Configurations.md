@@ -237,3 +237,50 @@ During relocation of TA if not displaying years to the current as per the old se
 4. Enter database info(connect to existing database)
 
 msvbvm50 run as admin on the machine with the error when viewing attendance register
+
+# LOOPBACK NAT (mobile app)
+
+Loopback NAT (also known as NAT hairpinning, NAT reflection, or hairpin NAT) is a network feature that allows devices inside a private network (LAN) to access a public IP address (usually their own) and have the traffic correctly routed back into the same internal network.
+
+Let’s break that down clearly 👇
+
+🧩 Typical NAT Scenario
+
+Normally, NAT (Network Address Translation) translates private IPs (like 192.168.1.10) to a public IP (like 41.89.77.10) when sending traffic to the internet.
+
+However, if a device inside the LAN tries to access a public service hosted on the same network (e.g. a website or mail server using the same public IP), NAT might not know how to route that packet — because it appears as if it’s trying to reach the public IP from inside.
+
+💡 What Loopback NAT Does
+
+Loopback NAT makes that possible by “reflecting” the traffic back into the LAN.
+
+It works like this:
+
+A user inside the LAN (e.g. 192.168.1.20) tries to reach 41.89.77.10:80 (the public IP of their own router).
+
+The router sees the destination is its own external IP, and instead of sending it to the internet, it:
+
+Translates the destination (41.89.77.10) to the internal IP of the server hosting the service (e.g. 192.168.1.100).
+
+Forwards the packet internally.
+
+The internal server (192.168.1.100) replies, and the router does the reverse NAT translation so the client sees the response as coming from 41.89.77.10.
+
+⚙️ Example
+
+Let’s say you have:
+
+Router public IP: 41.89.77.10
+
+Internal web server: 192.168.1.100
+
+Port forward: 41.89.77.10:80 → 192.168.1.100:80
+
+Without loopback NAT, if a LAN user (192.168.1.20) tries to access http://41.89.77.10, the connection fails because the router doesn’t know to send it back inside.
+
+With loopback NAT enabled, the router “hairpins” the traffic:
+
+192.168.1.20 → 41.89.77.10:80 → NAT → 192.168.1.100:80
+192.168.1.100 → response → NAT → 192.168.1.20
+
+The internal user successfully reaches the internal web server using the external address.
