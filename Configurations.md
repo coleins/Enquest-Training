@@ -149,6 +149,105 @@ create file
 
 adms -face pro only
 
+# DEVICE MOUNTING WHAT TO CONSIDER
+
+Here’s a complete checklist of what to consider during a site visit before installation 👇
+
+🏗️ 1. Location & Mounting Surface
+
+✅ Check wall type – Is it concrete, brick, or drywall?
+
+Use appropriate screws and wall plugs for each.
+
+Avoid weak walls or surfaces that vibrate.
+
+✅ Flatness – Ensure the wall is flat for proper alignment.
+
+✅ Height – Ideal mounting height: 1.4 – 1.6 meters from the floor (average adult face height).
+
+✅ Accessibility – Position it where users can easily face the device without stretching or bending.
+
+☀️ 2. Lighting Conditions
+
+✅ Avoid direct sunlight or bright backlight — this causes face detection failure.
+✅ Ensure uniform ambient lighting — especially for indoor installations.
+✅ If outdoors, ensure the area is shaded or has a canopy.
+
+⚡ 3. Power Supply
+
+✅ Check power source proximity – Device requires 12V DC (or POE if supported).
+✅ Confirm stable power – voltage fluctuations can damage the unit.
+✅ Consider UPS backup if the site experiences frequent power cuts.
+✅ Plan cable routing for safety and neatness.
+
+🌐 4. Network Connectivity
+
+✅ Verify LAN port availability or Wi-Fi signal strength (if wireless).
+✅ Use shielded Ethernet cables (Cat5e or Cat6).
+✅ Ensure network connection to the attendance server or router is reliable.
+✅ Confirm IP addressing plan (static IP preferred).
+
+🔒 5. Access Control Requirements (if applicable)
+
+If the device will control doors or gates:
+
+Identify door strike lock or magnetic lock compatibility.
+
+Check wiring path for exit button, door sensor, and alarm if needed.
+
+Ensure a metal back box or conduit is available for protection.
+
+🌧️ 6. Environmental Conditions
+
+✅ Temperature and humidity within device limits (usually 0°C–45°C, < 80% humidity).
+✅ If outdoor installation:
+
+Use weatherproof casing or shade.
+
+Protect from rain, dust, and direct heat.
+
+📶 7. User Flow & Positioning
+
+✅ Ensure users can stand directly in front of the camera (30–80 cm) without crowding.
+✅ Avoid placing the device:
+
+Near mirrors, glass walls, or reflective surfaces.
+
+Where people walk too fast past it (e.g., busy corridors).
+
+🔧 8. Cabling & Conduit Path
+
+✅ Identify shortest, safest cable route (power + network + access control lines).
+✅ Confirm conduit availability for protection and neatness.
+✅ Keep power and network cables separate to reduce interference.
+
+🧱 9. Mounting Hardware
+
+✅ Confirm you have:
+
+Mounting bracket
+
+Template sticker
+
+Screws and plugs
+
+Screwdriver/drill bits
+
+📋 10. Documentation & Configuration
+
+✅ Note:
+
+Device serial number
+
+Network details (IP, gateway, etc.)
+
+Integration requirements (server IP, ETIMETRACK, etc.)
+✅ Confirm with client:
+
+Who will manage user enrollment
+
+How logs will sync (LAN/Cloud)
+
 # MOUNTING DEVICE TO WALL
 
 To mount the eSSL AiFace Mars (a biometric facial recognition attendance system) to the wall, follow these general steps. This guide is based on typical mounting methods used for eSSL biometric devices like the AiFace series.
