@@ -1,8 +1,13 @@
 # PAYMASTER TRAINING
 
+## PAYSLIP
+1. Taxable Income = Gross Salary - Statutory Deductions
+2. Net Pay = Gross Salary - (Statutory Deductions + PAYE)
+3. PAYE = 
+
 ## SHIF = Employee contributes 2.75% of gross salary; minimum KSh 300/month; no cap
 
-## SHIF = From 1 Feb 2025 tiered contributions: Tier I (6% of first KSh 8,000 gross) and Tier II (6% of gross between KSh 8,001 and KSh 72,000) — maximum employee contribution KSh 4,320/month.
+## NHIF = From 1 Feb 2025 tiered contributions: Tier I (6% of first KSh 8,000 gross) and Tier II (6% of gross between KSh 8,001 and KSh 72,000) — maximum employee contribution KSh 4,320/month.
 
 ## NHDF = Employee contributes 1.5% of gross salary (and employer also contributes)
 
