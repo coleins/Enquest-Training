@@ -1,9 +1,10 @@
 # PAYMASTER TRAINING
 
 ## PAYSLIP
+
 1. Taxable Income = Gross Salary - Statutory Deductions
 2. Net Pay = Gross Salary - (Statutory Deductions + PAYE)
-3. PAYE = 
+3. PAYE =
 
 ## SHIF = Employee contributes 2.75% of gross salary; minimum KSh 300/month; no cap
 
@@ -63,3 +64,7 @@ Free or subsidized housing, Company car, Meals, fuel, utilities, airtime, etc.
 Employer-paid personal bills
 
 However, there’s a de minimis (minimum) threshold — that is, small benefits below a certain total value per month don’t need to be taxed.
+
+## Bank Tranfer Template
+
+A bank transfer template in payroll is a standardized file or document that contains employee payment details in the exact format required by a specific bank. Its essence or purpose is to ensure that salary payments can be uploaded, validated, and processed by the bank without errors or manual adjustments.
