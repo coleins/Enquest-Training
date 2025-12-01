@@ -68,3 +68,13 @@ However, there’s a de minimis (minimum) threshold — that is, small benefits 
 ## Bank Tranfer Template
 
 A bank transfer template in payroll is a standardized file or document that contains employee payment details in the exact format required by a specific bank. Its essence or purpose is to ensure that salary payments can be uploaded, validated, and processed by the bank without errors or manual adjustments.
+
+## Approval template flow
+
+assign name, and set approver for the folllowing
+Salary revision and arrears, Earning Deduction Batch Posting, Loan Voucher, Earnings Deduction Voucher
+
+## Approval Flow Setup
+
+On the user list select the approver,
+on payroll settingss select require payroll approval process
