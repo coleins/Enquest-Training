@@ -383,3 +383,120 @@ With loopback NAT enabled, the router “hairpins” the traffic:
 192.168.1.100 → response → NAT → 192.168.1.20
 
 The internal user successfully reaches the internal web server using the external address.
+
+To test if a public IP is accessible after performing Loopback NAT, you need to check two things separately:
+
+Is the public IP reachable from OUTSIDE the network?
+
+Can devices INSIDE the LAN access the service using the public IP (loopback NAT working)?
+
+Below is a clean, professional checklist you can use for testing.
+
+✅ 1️⃣ Test From Outside the Network (Public Reachability Test)
+
+This confirms that port forwarding and the public IP are properly accessible from the internet.
+
+✔ Method 1: Use your phone on mobile data (NOT Wi-Fi)
+
+Turn off Wi-Fi on your phone.
+
+Open a browser and enter:
+
+http://<public-ip>:<port>
+e.g. http://41.89.xx.xx:9090
+
+If the service opens, the public IP is accessible externally.
+
+✔ Method 2: Use an online port-check tool
+
+Sites like:
+
+Open Port Checker
+
+YouGetSignal Port Checker
+
+Enter:
+
+Public IP
+
+Port (e.g., 9090)
+
+If the tool reports "Open", external access is working.
+
+✅ 2️⃣ Test From Inside the Network (Loopback NAT Test)
+
+This verifies whether LAN devices can access the internal server using the public IP.
+
+✔ Method 1: Browser Test (Most common)
+
+On any PC connected to the same LAN, open:
+
+http://<public-ip>:<port>
+e.g. http://41.89.xx.xx:9090
+
+If the page or app opens, loopback NAT is working.
+
+✔ Method 2: Ping Test
+
+If the router allows ICMP (some don’t):
+
+ping <public-ip>
+
+If replies come back, the router responds correctly (but this does NOT confirm port forwarding).
+
+✔ Method 3: Use Telnet/Nc to test open ports
+
+Example:
+
+telnet <public-ip> <port>
+e.g. telnet 41.89.xx.xx 9090
+
+If the screen clears or gives a connected message:
+
+Connected to 41.89.xx.xx
+
+Loopback NAT + port is working.
+
+🔍 3️⃣ Confirm That Loopback NAT Is Actually Being Used
+
+On the internal device (PC):
+
+Run:
+
+curl -I http://<public-ip>:<port>
+
+If you get HTTP headers, loopback NAT is successful.
+
+Example output:
+
+HTTP/1.1 200 OK
+Server: nginx
+
+🟢 If Everything Works: Expected Results
+Test Expected Outcome
+External mobile test App opens
+Online port checker Port shows as open
+LAN browser test App loads via public IP
+Telnet from LAN → public IP Connects successfully
+
+If all these pass → Loopback NAT is correctly configured.
+
+🔴 If Loopback Fails but External Works
+
+Then:
+
+Your router does not support NAT hairpinning, OR
+
+The LAN → LAN NAT (MASQUERADE) rule is missing.
+
+You can send me:
+
+Router type (e.g., Mikrotik, Fortigate, Cisco, TP-Link)
+
+Port
+
+Public IP
+
+Internal server IP
+
+…and I will generate the correct working NAT rules for you.
