@@ -242,8 +242,7 @@ On the description column it will show the remarks for the present ones who are 
 ### Pass Data to Payroll
 
 If the employee passes ot1, ot2, lost hours or absenteeism data to payroll, check the checkbox at the bottom. Ensure to adjust the input fields accordingly.
-
-NAILS AND STEEL TRAINING HRMS/TA
+ABC TRAINING HRMS/TA
 
 The new system is browser based, accessed via url via computer
 Focus on the hrm and ta system today
