@@ -32,6 +32,157 @@
     To secure an Outlook account or enable encrypted email (S/MIME), you can either set up a trusted email signing certificate or enable encryption natively using Microsoft 365. The method depends on whether you are securing the connection between Outlook and your mail server, or encrypting the emails themselves.Method 1: Using an Email Signing Certificate (S/MIME)If you want to digitally sign and encrypt your emails so only the intended recipient can read them, you need a Personal Email Certificate (or Digital ID).How to get one:Purchase/Apply: Obtain a certificate from a trusted Certificate Authority (CA) like Sectigo, DigiCert, or SSL.com.Install to Windows: Once approved, you will download a file (usually .pfx or .p12). Open the file and follow the prompts to install it into your local Windows Certificate Store.Configure Outlook: Open Outlook Classic on your desktop, go to File > Options > Trust Center > Trust Center Settings > Email Security. Click Import/Export to load the certificate, then click Settings to link it to your email address.
     Method 2: Enabling Default Microsoft 365 EncryptionIf your goal is secure transmission without dealing with third-party certificates, Microsoft 365 automatically handles the server connection security and provides built-in email encryption.Check Requirements: Ensure you have a qualifying Microsoft 365 Business or Enterprise plan.Use Built-in Features: When composing an email in Outlook, simply go to the Options tab, click Encrypt, and select the encryption policy (e.g., Encrypt-Only).Method 3: Fixing Server Connection Errors ("Not Secure")If you are seeing a "Security Certificate Not Secure" error when connecting to an email server, the email server administrator needs to install a valid SSL/TLS certificate.Contact your IT administrator or web hosting provider.Ensure they install a valid SSL on your incoming and outgoing mail servers (IMAP/POP/SMTP).
 
+    In most cases, a Microsoft 365 organization (formerly Office 365 for Business) is connected to the company's domain, but there are a few scenarios.
+
+How it works
+
+When a company signs up for Microsoft 365, it gets a default domain such as:
+
+company.onmicrosoft.com
+
+Most organizations then add and verify their own custom domain, for example:
+
+company.com
+
+Once verified, Microsoft 365 uses that domain for:
+
+Email addresses (e.g., john@company.com)
+User sign-ins (e.g., john@company.com)
+Microsoft Teams
+SharePoint
+OneDrive
+Other Microsoft 365 services
+Is it connected to the company's DNS domain?
+
+Yes. The company must prove ownership of the domain by adding DNS records at their domain registrar or DNS host. Microsoft 365 typically requires records such as:
+
+MX (mail routing)
+TXT (domain verification)
+CNAME
+SPF
+DKIM
+DMARC (recommended)
+
+This means Microsoft 365 is tied to the company's internet domain.
+
+Is it connected to the company's Windows Active Directory?
+
+It depends.
+
+Cloud-only organization
+Users exist only in Microsoft Entra ID (formerly Azure Active Directory).
+No on-premises Windows domain controller is involved.
+Hybrid organization
+The company's on-premises Active Directory is synchronized with Microsoft Entra ID using Microsoft Entra Connect.
+Employees use the same username and password for both their Windows login and Microsoft 365.
+Why this matters
+
+If someone is having issues accessing Microsoft 365 services, the cause could be:
+
+The Microsoft 365 account itself.
+The company's domain or DNS configuration.
+Their Microsoft Entra ID account.
+Their on-premises Active Directory (if using hybrid identity).
+
+For example, if a user's email is user@company.com, the Microsoft 365 tenant has almost certainly been configured to use the company's company.com domain.
+
+Here's a practical scenario that illustrates how a company's domain is connected to Microsoft 365.
+
+Scenario
+
+Suppose a company called ABC Technologies Ltd. owns the domain:
+
+abctech.co.ke
+
+The domain was purchased through a registrar such as GoDaddy, Namecheap, or Cloudflare.
+
+Step 1: Purchase Microsoft 365
+
+The company subscribes to Microsoft 365 Business Standard.
+
+Initially, Microsoft creates a default tenant with a domain like:
+
+abctech.onmicrosoft.com
+
+Users can sign in using this domain, but it's not ideal for business email.
+
+Step 2: Add the company's domain
+
+The Microsoft 365 administrator adds:
+
+abctech.co.ke
+
+to the Microsoft 365 tenant.
+
+Microsoft then asks the administrator to verify ownership.
+
+Step 3: Verify ownership
+
+Microsoft provides a TXT record such as:
+
+Type	Host	Value
+TXT	@	MS=ms12345678
+
+The administrator logs in to wherever the domain's DNS is managed (e.g., GoDaddy or Cloudflare) and adds that TXT record.
+
+Microsoft checks the internet for the record.
+
+If it finds it, it knows:
+
+"Only the owner of abctech.co.ke could have added this record."
+
+The domain is now verified.
+
+Step 4: Configure email
+
+Microsoft asks the administrator to update DNS records.
+
+For example:
+
+Record	Purpose
+MX	Directs email to Microsoft 365
+Autodiscover CNAME	Outlook automatic configuration
+SPF TXT	Prevents email spoofing
+DKIM	Digitally signs outgoing emails
+DMARC	Helps prevent phishing
+
+Once these are added:
+
+Emails sent to john@abctech.co.ke arrive in Microsoft 365.
+Outlook automatically connects to Exchange Online.
+Teams and SharePoint recognize users under the company domain.
+What happens if someone removes the DNS records?
+
+Suppose the company's IT administrator accidentally deletes the MX record.
+
+Result:
+
+New emails sent to john@abctech.co.ke will no longer be delivered to Microsoft 365.
+Existing mailboxes still exist, but mail flow breaks.
+
+Similarly:
+
+Removing the TXT verification record after verification usually does not unverify the domain.
+Removing SPF, DKIM, or DMARC records may cause outgoing emails to be marked as spam or rejected.
+Changing the MX record to another provider (e.g., Google Workspace) will route new email there instead of Microsoft 365.
+Relating this to a real support case
+
+Imagine a user reports:
+
+"I can't send payslips from Outlook using my company email."
+
+As an application support engineer, you would first determine whether the issue is with your application or the Microsoft 365 environment.
+
+Possible causes on the Microsoft 365 side include:
+
+The user's Microsoft 365 account has been disabled.
+The mailbox license has been removed.
+Exchange Online has blocked sending.
+The domain's DNS records (MX, SPF, DKIM) have been changed.
+The company has applied a security policy restricting SMTP or mailbox access.
+
+In such a case, although your application interfaces with Microsoft 365, the underlying Microsoft 365 tenant, domain configuration, and user account are administered by the client's IT team. Therefore, they are in the best position to investigate account restrictions, licensing, DNS, and mail flow issues. This aligns with the distinction you mentioned in your earlier email: your support team is responsible for the application, while the client manages their Microsoft 365 tenant and domain configuration.
+
 # PAYMASTER DESKTOP INSTALLATION
 
 1. Ensure to have both Paymaster 12 setup and TAPA dll folders
